@@ -1,4 +1,54 @@
-.body
-{
+body{
+    font-family:Arial, Helvetica, sans-serif;
     background-color: lightblue;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+}
+
+header h1{
+    color:#2196f3;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#2196f3;
+}
+
+footer{
+    background:#1e293b;
+    color:white;
+    padding:30px 0;
+}
+
+.socials{
+    display:flex;
+    gap:20px;
+}
+
+.socials a{
+    color:white;
+    text-decoration:none;
+}
+
+.socials a:hover{
+    color:#75b7ea;
 }
